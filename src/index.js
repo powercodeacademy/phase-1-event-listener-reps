@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
   and code your solutions in the `index.js` file.
 */
 
-  // -------------- [FIRST SECTION - PHOTO] ---------------
+  // -------------- [Functions You'll Need] ---------------
 
   const increaseLikes = () => {
     const likesElement = document.querySelector("#instaLikes") // Finds the like count
@@ -28,6 +28,8 @@ document.addEventListener("DOMContentLoaded", () => {
     event.preventDefault() // Prevents the form from doing the default html submit that triggers a page reload
     alert(`You submitted: ${event.target.description.value}`) // Alerts with dynamic text depending on what is in the text box
   }
+
+  // -------------- [FIRST SECTION - PHOTO] ---------------
 
   // 1. Add an event listener to the heart that calls the "increaseLikes" function when clicked
 
